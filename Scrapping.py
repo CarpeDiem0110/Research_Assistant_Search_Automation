@@ -31,8 +31,7 @@ class Scraping:
             self.driver.quit()
 
     def scrape_and_notify(self, pages=2):
-        #current_date = self.take_today_date()
-        currentDate =  "08.08.2025"  # TEST DATE
+        current_date = self.take_today_date()
         print("Today is:", currentDate)
 
         for i in range(pages):
