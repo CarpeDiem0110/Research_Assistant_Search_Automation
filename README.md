@@ -2,7 +2,7 @@
 
 ## Proje Hakkında
 Python ve Selenium kullanılarak geliştirilmiş bu otomasyon projesi, ilanlar.gov sitesinde paylaşılan araştırma görevlisi ilanlarını günlük olarak takip eder 
-ve verdiğiniz kelimelere göre sizin için arama yapıp hangi ilanların o gün için size uyumlu olduğunu kontrol eder ve oluşturduğunuz Telegram bota mesaj gönderir.  
+ve verdiğiniz kelimelere göre sizin için arama yapıp hangi ilanların o gün için size uyumlu olduğunu kontrol eder ve oluşturduğunuz Telegram bota mesaj gönderir . \n  
 Başlıca hedefi, gündelik olarak ilanlara bakan insanlara zaman tasarrufu sağlamaktır.  
 Proje AWS, Google gibi platformlarda **cron job** ile zamanlanabilir ve kendi bilgisayarınızda scripti sürekli çalıştırmadan kurulum yapılabilir.
 
@@ -30,20 +30,33 @@ Proje AWS, Google gibi platformlarda **cron job** ile zamanlanabilir ve kendi bi
 ```bash
 git clone https://github.com/CarpeDiem0110/Research_Assistant_Search_Automation.git
 cd proje_adi
+pip install -r requirements.txt
 
-```bash
+```
 ### 2. Telegram Bot oluştur
+```bash
 BotFather ile yeni bir bot oluşturun
 Projeyi oluşturduğunuz klasör içerisinde .env dosyası oluşturun
 
+ 
 TELEGRAM_BOT_TOKEN = ""
 TELEGRAM_CHAT_ID = ""
 
+
 Oluşturduğunuz .env dosyasında bu parametreleri doldurun
 
+```
 ### 3. Projeyi çalıştırın
 
-=> python main.py 
+python main.py 
+
+
+--- 
+
+
+## TEST VIDEO 
+
+https://github.com/user-attachments/assets/b1645b96-51b9-4a78-afad-4853ba7f557b
 
 
 
