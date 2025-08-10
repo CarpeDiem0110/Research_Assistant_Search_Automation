@@ -8,15 +8,9 @@ import datetime
 import openpyxl
 from TelegramBot import TelegramBot
 
-# What kind of features is going to be added  !!!!
-# 
-# Send the message to telegram bot if the date is today
-# Integrate with windows scheduler to run the script daily
-# Cloud'a host edersen scheduler ayarlayıp buradan kendine mesaj attırabilirsin
 
 
-TELEGRAM_BOT_TOKEN = "7796630658:AAGQWYsg_1TEK1Mpy30gzqBxPFeDGhNPw6s"
-TELEGRAM_CHAT_ID = "5219479758"
+
 
 
 def take_today_date():
