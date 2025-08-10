@@ -31,6 +31,7 @@ Proje AWS, Google gibi platformlarda **cron job** ile zamanlanabilir ve kendi bi
 git clone https://github.com/CarpeDiem0110/Research_Assistant_Search_Automation.git
 cd proje_adi
 
+```bash
 ### 2. Telegram Bot oluştur
 BotFather ile yeni bir bot oluşturun
 Projeyi oluşturduğunuz klasör içerisinde .env dosyası oluşturun
@@ -45,7 +46,6 @@ Oluşturduğunuz .env dosyasında bu parametreleri doldurun
 => python main.py 
 
 
----
 
 
 
