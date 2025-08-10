@@ -2,8 +2,6 @@
 import requests
 
 
-TELEGRAM_BOT_TOKEN = "7796630658:AAGQWYsg_1TEK1Mpy30gzqBxPFeDGhNPw6s"
-TELEGRAM_CHAT_ID = "5219479758"
 
 class TelegramBot:
     def __init__(self, token, chat_id):
